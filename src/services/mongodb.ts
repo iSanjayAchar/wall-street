@@ -27,7 +27,7 @@ async function Init() {
       timeField: 'timestamp',
       granularity: 'seconds',
     },
-    expireAfterSeconds: 86400,
+    expireAfterSeconds: 86400 * 3,
   })
 }
 
