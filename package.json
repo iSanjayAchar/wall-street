@@ -17,6 +17,7 @@
     "test:coverage": "npm run test -- --coverage"
   },
   "dependencies": {
+    "@sentry/node": "^7.22.0",
     "dayjs": "^1.11.6",
     "dotenv": "^16.0.0",
     "mongodb": "^4.12.1",
